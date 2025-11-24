@@ -1,4 +1,4 @@
-# 🚗 AlugaFácil - Sistema de Gestão de Locadora de Veículos
+#  AlugaFácil - Sistema de Gestão de Locadora de Veículos
 
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
 ![Database](https://img.shields.io/badge/Database-MySQL-blue)
@@ -6,7 +6,7 @@
 
 Projeto de banco de dados relacional desenvolvido para simular o ecossistema de uma locadora de veículos. O sistema gerencia todo o ciclo de vida do aluguel, desde o cadastro do cliente e frota até a devolução do veículo e cálculo de multas.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório contém a modelagem e implementação de um banco de dados SQL completo. O objetivo foi aplicar conceitos avançados de **Modelagem de Dados**, **Integridade Referencial (FK/PK)** e **Otimização de Consultas (Views)**.
 
@@ -34,7 +34,7 @@ O projeto foi organizado para facilitar tanto o estudo passo-a-passo quanto a ex
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Você tem duas opções para rodar este banco de dados na sua máquina:
 
