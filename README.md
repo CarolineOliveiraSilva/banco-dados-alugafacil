@@ -25,7 +25,7 @@ O projeto foi organizado para facilitar tanto o estudo passo-a-passo quanto a ex
 
 | Arquivo | Descrição |
 | :--- | :--- |
-| **`alugafacil_db.sql`** | 🏆 **Arquivo Principal:** Backup completo (Estrutura + Dados + Views). Ideal para importação rápida via "Data Import". |
+| **`alugafacildb.sql`** | 🏆 **Arquivo Principal:** Backup completo (Estrutura + Dados + Views). Ideal para importação rápida via "Data Import". |
 | `Script_Insert.sql` | Script DML: Povoamento inicial do banco com dados fictícios para testes. |
 | `Script_update-delete.sql` | Exemplos práticos de manipulação de dados (CRUD). |
 | `Script_select.sql` | Consultas complexas (JOINs) e criação das Views. |
@@ -40,7 +40,7 @@ Você tem duas opções para rodar este banco de dados na sua máquina:
 ### Opção A: Instalação Rápida (Recomendada)
 1.  Abra o **MySQL Workbench**.
 2.  Vá em **Server** > **Data Import**.
-3.  Selecione **Import from Self-Contained File** e escolha o arquivo `alugafacil_completo_dump.sql`.
+3.  Selecione **Import from Self-Contained File** e escolha o arquivo `alugafacildb.sql`.
 4.  Clique em **Start Import**.
 5.  Pronto! O banco `alugafacil` será criado com tudo pronto.
 
@@ -51,24 +51,6 @@ Se preferir rodar os scripts manualmente para entender a lógica, siga esta orde
 
 ---
 
-## 📊 Relatórios Implementados (Views)
-
-O sistema conta com "Visões" que facilitam a tomada de decisão. Após instalar, você pode consultá-las com comandos simples:
-
-* **Relatório de Status:** Visão geral de quem alugou qual carro e qual a previsão de entrega.
-    ```sql
-    SELECT * FROM relatorio_status_contratos;
-    ```
-* **Alerta de Atrasos:** Lista automática de clientes que não devolveram o carro na data prevista.
-    ```sql
-    SELECT * FROM view_alerta_atrasos;
-    ```
-* **Resumo Financeiro:** Total arrecadado agrupado por método de pagamento.
-    ```sql
-    SELECT * FROM view_resumo_financeiro;
-    ```
-
----
 
 ## ✒️ Autora
 
