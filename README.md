@@ -25,7 +25,7 @@ O projeto foi organizado para facilitar tanto o estudo passo-a-passo quanto a ex
 
 | Arquivo | Descrição |
 | :--- | :--- |
-| **`alugafacil_completo_dump.sql`** | 🏆 **Arquivo Principal:** Backup completo (Estrutura + Dados + Views). Ideal para importação rápida via "Data Import". |
+| **`alugafacil_db.sql`** | 🏆 **Arquivo Principal:** Backup completo (Estrutura + Dados + Views). Ideal para importação rápida via "Data Import". |
 | `Locadora.sql` | Script DDL: Criação do Schema e das Tabelas. |
 | `Script_Insert.sql` | Script DML: Povoamento inicial do banco com dados fictícios para testes. |
 | `Script_update-delete.sql` | Exemplos práticos de manipulação de dados (CRUD). |
